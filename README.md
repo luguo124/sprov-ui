@@ -57,3 +57,10 @@ https://t.me/sprov_blog
 
 # Telegram 频道
 https://t.me/sprov_channel
+
+yum install wget -y
+apt-get install wget -y
+wget -O sprov-ui https://github.com/sprov065/sprov-ui/raw/master/sprov-ui.sh
+chmod +x sprov-ui
+mv sprov-ui /usr/bin/ -f
+sprov-ui
